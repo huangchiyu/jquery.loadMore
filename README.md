@@ -47,13 +47,13 @@
     02 单个元素手动点击加载效果:  
     
     ![单个元素手动点击加载效果](images/clickLoad.png)        
-    [点击查看手动点击加载demo演示](https://vincent2117.github.io/jquery.loadMore/demo/demo3-element-click.html)  
+    [点击查看手动点击加载demo演示](https://huangchiyu.github.io/jquery.loadMore/demo/demo3-element-click.html)  
     
     
     
     03 给document绑定滚动事件    
     
-    [点击查看document绑定效果](https://vincent2117.github.io/jquery.loadMore/demo/demo1-document-auto.html)  
+    [点击查看document绑定效果](https://huangchiyu.github.io/jquery.loadMore/demo/demo1-document-auto.html)  
     
     
 ### 3. 使用说明  
