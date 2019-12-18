@@ -1,0 +1,4 @@
+#divP {  width: 335px;  height: 550px;  overflow: auto;  margin: 0 auto;  border: 1px solid #aaa;  }
+#divC {  width: 220px;  min-height: 1000px;  margin:0 auto;  }
+#divC .box { width: 200px;  height: 150px;  margin-top: 10px; overflow:hidden;line-height: 150px;  border: 1px solid #eee;  text-align: center;  }
+#divC .images {width: 100%;}

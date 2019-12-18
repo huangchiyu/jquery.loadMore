@@ -1,0 +1,6 @@
+._loadMore-imgLoading{  text-align: center;margin:10px auto  }
+._loadMore-imgLoading img{ margin-right: 12px;vertical-align: middle;width: 22px;}
+._loadMore-click {padding-top: 30px;padding-bottom: 50px;border: none;}
+._loadMore-click span:hover{  color: blue;  background: url("images/btn-bg-green.png") repeat;  }
+._loadMore-click span:active{ color: red;  }
+._loadMore-click span{  display: block;  min-width: 200px;  width:60%;  height: 40px;  line-height: 40px;  margin: 0 auto;  border: 1px solid #fff;  border-radius: 5px;  text-align: center;  cursor: pointer;  background: url("images/btn-bg-lightblue.png") repeat;  background-size: 100% 100%;  }

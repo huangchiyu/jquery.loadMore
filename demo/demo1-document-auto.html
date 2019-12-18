@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <title>给整个网页加滚动条</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,width=device-width,user-scalable=no">
+    <link href="demo.css" rel="stylesheet">
+</head>
+<body>
+    <div id="divC">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.0.0.min.js"></script>
+    <script src="../jquery.loadMore.min.js"></script>
+    <script type="text/javascript">
+
+        $(function(){
+            // 给整个页面加滚动条
+            var data = {
+                page: 1,
+                limit: 1
+            };
+
+            //给某个独立元素加滚动条
+            var obj = $(document).loadMore({
+                url: "https://huangchiyu.net/php/hcy/github/github.php",
+                dataType: 'json',
+                data: {page: data.page, limit: data.limit},
+
+                success: function (res) {
+                    data.page += 1;
+                    obj.updatePram('data', data);
+                    render(res.data);
+                }
+            });
+
+
+            function render(data) {
+                $.each(data, function (key, value) {
+                    var img = $('<div class="box"><img class="images" src="' + value + '" alt=""></div>');
+                    $("#divC").append(img);
+                });
+            }
+        });
+
+    </script>
+</body>
+</html>
