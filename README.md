@@ -39,7 +39,7 @@
     01 单个元素自动加载效果   
    
     ![单个元素自动加载效果](images/autoLoad.png)   
-     [点击查看demo演示](https://vincent2117.github.io/jquery.loadMore/demo/demo2-element-auto.html)  
+     [点击查看demo演示](https://huangchiyu.github.io/jquery.loadMore/demo/demo2-element-auto.html)  
     
     
     
